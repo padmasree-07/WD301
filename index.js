@@ -62,7 +62,9 @@ const todoList = () => {
            st = st+list[i].dueDate;
 
          }
-        st = st+"\n";
+         if (i!=list.length-1){
+               st = st+"\n";
+         }
       }
       return st;
       // return OUTPUT_STRING
