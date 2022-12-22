@@ -63,7 +63,7 @@ const todoList = () => {
 
          }
          if (i!=list.length-1){
-               st = st+"\n";
+            st = st+"\n";
          }
       }
       return st;
